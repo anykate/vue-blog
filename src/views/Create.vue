@@ -53,7 +53,7 @@ export default {
         tags: tags.value
       }
 
-      await fetch('http://localhost:3000/posts', {
+      await fetch('http://localhost:3004/posts', {
         method: 'POST',
         headers: { 'Content-type': 'application/json' },
         body: JSON.stringify(post)

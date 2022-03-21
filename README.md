@@ -5,6 +5,13 @@
 npm install
 ```
 
+## JSON server (simulate REST API)
+```
+Open new command prompt and do the following:
+a) npm install -g json-server
+b) json-server --watch db.json --port 3004
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
